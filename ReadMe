@@ -1,0 +1,7 @@
+Outlining how to run the container and access the API:
+1.docker build -t rahatahamed/httpserver:v1.5 . 
+2.docker run -p 8000:8000 rahatahamed/httpserver:v1.5 
+3.docker ps -a
+4.docker start(image id)
+5.docker stop id(image id)
+
